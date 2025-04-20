@@ -133,7 +133,7 @@ class Schedule:
     def __str__(self):
         result = []
         for act, (room, time, fac) in self.assignments.items():
-            result.append(f"{act}: Room={room}, Time={time}, Facilitator={fac}")
+            result.append(f"{act}: Room = {room}, Time = {time}, Facilitator = {fac}")
         return "\n".join(result)
 
 #This function uses softmax to help convert the fitness scores
