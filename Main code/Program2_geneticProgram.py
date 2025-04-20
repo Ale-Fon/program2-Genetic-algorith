@@ -2,7 +2,7 @@ import random
 import math
 from collections import defaultdict
 
-#variables from the assignment on canvas.
+#given variables from the assignment on canvas.
 FACILITATORS = ["Lock", "Glen", "Banks", "Richards", "Shaw", "Singer", "Uther", "Tyler", "Numen", "Zeldin"]
 
 ROOMS = {"Slater 003": 45,"Roman 216": 30,"Loft 206": 75,"Roman 201": 50,"Loft 310": 108,"Beach 201": 60,"Beach 301": 75,"Logos 325": 450,"Frank 119": 60,
