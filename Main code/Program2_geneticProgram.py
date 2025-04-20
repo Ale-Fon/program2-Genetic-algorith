@@ -94,7 +94,7 @@ class Schedule:
                 if f != "Tyler":
                     score -= 0.4
 
-        # This function is a specific scheduling rules for Sla101 and sla191
+        # This function and below is a specific scheduling rules for Sla101 and sla191.
         def hour(t):
             return int(t.split()[0]) + (0 if 'am' in t else 12)
 
